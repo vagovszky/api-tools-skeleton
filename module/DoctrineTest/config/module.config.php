@@ -6,7 +6,7 @@ return [
                 'class' => \Doctrine\ORM\Mapping\Driver\AnnotationDriver::class,
                 'cache' => 'array',
                 'paths' => [
-                    0 => 'C:\\Users\\e351649\\workspace\\api-tools-skeleton\\module\\DoctrineTest\\config/../src/Entity',
+                    0 => __DIR__.'/../src/Entity',
                 ],
             ],
             'orm_default' => [
